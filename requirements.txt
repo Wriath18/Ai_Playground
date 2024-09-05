@@ -1,3 +1,4 @@
 langchain
 streamlit
 groq
+langchain_groq
