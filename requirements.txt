@@ -3,3 +3,5 @@ streamlit
 groq
 python-dotenv
 langchain_groq
+nltk
+scikit-learn
