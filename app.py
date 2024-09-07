@@ -276,14 +276,14 @@ def create_llm(model_name, temperature):
     return ChatGroq(groq_api_key=groq_api_key, model_name=model_name, temperature=temperature)
 
 llm_options = {
-    "Groq (llama-3.1-70b-versatile)": "llama-3.1-70b-versatile",
-    "Groq (llama-3.1-8b-instant)": "llama-3.1-8b-instant",
-    "Groq (llama3-70b-8192)": "llama3-70b-8192",
-    "Groq (llama3-8b-8192)": "llama3-8b-8192",
-    "Groq (gemma-7b-it)": "gemma-7b-it",
-    "Groq (gemma2-9b-it)": "gemma2-9b-it",
-    "Groq (mixtral-8x7b-32768)": "mixtral-8x7b-32768",
-    "Groq (llava-v1.5-7b-4096-preview)": "llava-v1.5-7b-4096-preview",
+    "llama-3.1-70b-versatile": "llama-3.1-70b-versatile",
+    "llama-3.1-8b-instant": "llama-3.1-8b-instant",
+    "llama3-70b-8192": "llama3-70b-8192",
+    "llama3-8b-8192": "llama3-8b-8192",
+    "gemma-7b-it": "gemma-7b-it",
+    "gemma2-9b-it": "gemma2-9b-it",
+    "mixtral-8x7b-32768": "mixtral-8x7b-32768",
+    "llava-v1.5-7b-4096-preview": "llava-v1.5-7b-4096-preview",
 }
 
 # Initialize chat prompt template
